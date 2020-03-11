@@ -530,6 +530,7 @@ final class I18n {
 		);
 
 		if (!empty($systemLocale)) {
+            $systemLocale = \str_replace('-', '_', $systemLocale);
 			\setlocale(\LC_NUMERIC, $systemLocale);
 			\setlocale(\LC_TIME, $systemLocale);
 			\setlocale(\LC_MONETARY, $systemLocale);

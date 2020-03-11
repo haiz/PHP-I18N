@@ -14,10 +14,10 @@ Provide your application in multiple languages, to users in various countries, w
 
 ## Installation
 
- 1. Include the library via Composer [[?]](https://github.com/delight-im/Knowledge/blob/master/Composer%20(PHP).md):
+ 1. Include the library via Composer:
 
     ```bash
-    $ composer require delight-im/i18n
+    $ composer require haiz/i18n
     ```
 
  1. Include the Composer autoloader:
